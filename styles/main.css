@@ -1,6 +1,7 @@
 body {
   font-size: 100%;
-  font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  
 }
 
 p {
@@ -16,8 +17,17 @@ img {
 
 /***************** NAV *****************/
 
+nav {
+  font-family: Rammetto One; 
+  
+  
+  
+}
+
 nav a:hover {
   text-decoration: underline;
+  
+  
 }
 
 /**************** HERO *****************/
@@ -26,8 +36,15 @@ header img {
   max-height: 6rem;
 }
 
+.searchbar {
+  width: 30rem;
+  
+}
+
 h1 .logo-w {
-  font-size: 3.5rem;
+  font-size: 4rem;
+  color: deepskyblue;
+  font-family: Rammetto One;
 }
 
 /**************** ASIDE ****************/
@@ -52,6 +69,7 @@ h2 {
   font-size: 2rem;
   text-align: center;
   color: #2d2d2d;
+  
 }
 
 h3 {
