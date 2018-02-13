@@ -4,8 +4,10 @@ body {
   
 }
 
+
+
 p {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "", Helvetica, Arial, sans-serif;
   font-weight: lighter;
   color: #2d2d2d;
 }
@@ -13,20 +15,22 @@ p {
 /* TODO: size images manually so this is not necessary */
 img {
   max-height: 20rem;
+  
 }
 
 /***************** NAV *****************/
 
 nav {
-  font-family: Rammetto One; 
-  
-  
-  
+  font-family: 'Lobster', cursive; 
+  color: deepskyblue;
+  font-size: 1.6rem;
+  text-shadow: .5px .5px black;
 }
+
+
 
 nav a:hover {
   text-decoration: underline;
-  
   
 }
 
@@ -44,7 +48,8 @@ header img {
 h1 .logo-w {
   font-size: 4rem;
   color: deepskyblue;
-  font-family: Rammetto One;
+  font-family: 'Rammetto One', sans-serif;
+  text-shadow: 1px 1px black;
 }
 
 /**************** ASIDE ****************/
@@ -66,14 +71,29 @@ section {
 
 h2 {
   padding-top: 1.5rem;
-  font-size: 2rem;
+  font-size: 4rem;
   text-align: center;
-  color: #2d2d2d;
+  color: deepskyblue;
+  font-family: 'Lobster',cursive;
+  text-decoration: underline;
+  margin-bottom: 2rem;
+  text-shadow: 2px 2px black;
   
 }
 
 h3 {
-  font-size: 1.2rem;
+  font-size: 2rem;
   text-align: center;
-  color: #2d2d2d;
+  color: deepskyblue;
+  font-family: 'Lobster', cursive;
+  text-shadow: 1px 1px black;
+}
+
+.price {
+  color: lightcoral;
+  font-size: 1.75rem
+}
+
+.stars {
+  color: lightcoral;
 }
