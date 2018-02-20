@@ -207,15 +207,18 @@
     </section>
     
     <footer class="bg-light">
-    <aside class="text-center">
-      <form>
-        <label>Sign up for our mailing list:
-          <input type="email" name="email">
-        </label>
+      <aside class="text-center">
+        <form name="custEmail" onsubmit="capture()">
+          <label>Sign up for our mailing list:
+            <input type="email" name="email">
+          </label>
+          <label>Phone Number
+            <input type="number" name="phone">
+          </label>
 
-        <input type="submit" value="Submit">
-      </form>
-    </aside>
+          <input type="submit" value="Submit">
+        </form>
+      </aside>
     </footer>
   </main>
   <script src="js/script.js"></script>

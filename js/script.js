@@ -52,3 +52,12 @@ var products = [
   }
 ]
 
+function capture(){
+  event.preventDefault()
+  console.log("form submitted")
+  console.log("Thank you for signing up on our email list!")
+  var theName = document.custEmail.email.value
+  var phone = document.custEmail.phone.value
+  console.log(theName, phone)
+  alert("Thank you for signing up! We will send you all the hottest deals of the season!")
+}
