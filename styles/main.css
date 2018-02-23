@@ -5,6 +5,12 @@ body {
 }
 
 
+  @media (max-width 350px){
+    .cat-logo img{
+/*      display: none;*/
+      visibility: collapse;
+  }
+}
 
 p {
   font-family: "", Helvetica, Arial, sans-serif;
