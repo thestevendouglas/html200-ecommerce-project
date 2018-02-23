@@ -5,10 +5,9 @@ body {
 }
 
 
-  @media (max-width 350px){
+  @media (max-width 768px){
     .cat-logo img{
       display: none;
-/*      visibility: collapse;*/
   }
 }
 
