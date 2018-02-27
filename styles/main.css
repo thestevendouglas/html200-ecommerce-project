@@ -18,7 +18,7 @@ img {
   
 }
 
-@media (max-width: 1000px){
+@media (max-width: 767px){
   img {
     display: none;
   }
@@ -31,9 +31,11 @@ img {
 nav {
   font-family: 'Lobster', cursive; 
   color: deepskyblue;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-shadow: .5px .5px black;
 }
+
+
 
 @media (max-width: 767px){
   .nav-1 {
@@ -44,6 +46,7 @@ nav {
 @media (min-width: 768px){
   .nav-2 {
     display: none;
+ 
   }
 }
   
@@ -69,17 +72,23 @@ header img {
 
 
 
-h1 .logo-w {
+ h1 .logo-w {
   font-size: 4rem;
-  color: deepskyblue;
-  font-family: 'Rammetto One', sans-serif;
+  color: deepskyblue;`
+  font-family: 'Rammetto One', cursive;
   text-shadow: 1px 1px black;
+  align-content: center;
+  justify-content: center;
 }
 
 @media (max-width: 768px){
-  h1 span{
-    font-size: 1rem;
+   {
+    font-size: 2rem;
   }
+}
+
+h1 {
+  font-family: 'Rammetto One', cursive;
 }
 
 
