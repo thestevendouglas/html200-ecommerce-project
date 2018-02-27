@@ -18,6 +18,14 @@ img {
   
 }
 
+@media (max-width: 1000px){
+  img {
+    display: none;
+  }
+}
+
+
+
 /***************** NAV *****************/
 
 nav {
@@ -26,6 +34,19 @@ nav {
   font-size: 1.5rem;
   text-shadow: .5px .5px black;
 }
+
+@media (max-width: 767px){
+  .nav-1 {
+    display: none;
+  }
+}
+
+@media (min-width: 768px){
+  .nav-2 {
+    display: none;
+  }
+}
+  
 
 
 
@@ -40,10 +61,13 @@ header img {
   max-height: 6rem;
 }
 
+
 .searchbar {
   width: 30rem;
   
 }
+
+
 
 h1 .logo-w {
   font-size: 4rem;
@@ -51,6 +75,14 @@ h1 .logo-w {
   font-family: 'Rammetto One', sans-serif;
   text-shadow: 1px 1px black;
 }
+
+@media (max-width: 768px){
+  h1 span{
+    font-size: 1rem;
+  }
+}
+
+
 
 /**************** ASIDE ****************/
 
