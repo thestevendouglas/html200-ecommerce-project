@@ -35,6 +35,7 @@ nav {
   text-shadow: .5px .5px black;
 }
 
+
 @media (max-width: 500px){
   .title {
     font-size: 20px;
@@ -89,6 +90,7 @@ header img {
   justify-content: center;
 }
 
+/* font size adjustments for smaller devices */
 @media (max-width: 576px){
   h1 {
     font-size: .5rem;
@@ -96,9 +98,9 @@ header img {
   .logo-w {
     font-size: 1.5rem;
   }
-  
 }
 
+/* font size adjustments for smaller devices */
 @media (max-width: 768px){
   h1 {
     font-size: 2rem;
@@ -107,8 +109,12 @@ header img {
   .logo-w {
     font-size: 3rem;
     justify-content: center;
-    
   }
+/*
+  .scarf-pic {
+    width: inherit;
+  }
+*/
 }
 
 
@@ -164,6 +170,7 @@ h3 {
   color: lightcoral;
 }
 
+/* scarf divs scaled down for smaller devices */
 @media (max-width: 576px){
   .scarves {
     width: 50%;
@@ -174,4 +181,14 @@ h3 {
   h2 {
     font-size: 2.75rem;
   }
+  .scarf-pic {
+    width: inherit;
+  }
+  
 }
+
+footer {
+  height: 10rem;
+}
+
+
