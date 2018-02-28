@@ -15,9 +15,9 @@ p {
 /* TODO: size images manually so this is not necessary */
 img {
   max-height: 20rem;
-  
 }
 
+/*logo img disappears when screen size drops below 767px */
 @media (max-width: 767px){
   img {
     display: none;
@@ -35,7 +35,11 @@ nav {
   text-shadow: .5px .5px black;
 }
 
-
+@media (max-width: 500px){
+  .title {
+    font-size: 20px;
+  }
+}
 
 @media (max-width: 767px){
   .nav-1 {
@@ -43,15 +47,19 @@ nav {
   }
 }
 
+/* 'Hamburger' nav disappears at this screen size */
 @media (min-width: 768px){
   .nav-2 {
     display: none;
- 
   }
 }
-  
 
-
+/* resizing the searchbar when screen size gets to 600px or smaller */
+@media (max-width: 600px){
+  input.searchbar {
+    width: 260px;
+  }
+}
 
 nav a:hover {
   text-decoration: underline;
@@ -72,7 +80,7 @@ header img {
 
 
 
- h1 .logo-w {
+  .logo-w {
   font-size: 4rem;
   color: deepskyblue;`
   font-family: 'Rammetto One', cursive;
@@ -81,11 +89,28 @@ header img {
   justify-content: center;
 }
 
+@media (max-width: 576px){
+  h1 {
+    font-size: .5rem;
+  }
+  .logo-w {
+    font-size: 1.5rem;
+  }
+  
+}
+
 @media (max-width: 768px){
-   {
+  h1 {
     font-size: 2rem;
+    justify-content: center;
+  }
+  .logo-w {
+    font-size: 3rem;
+    justify-content: center;
+    
   }
 }
+
 
 h1 {
   font-family: 'Rammetto One', cursive;
@@ -137,4 +162,16 @@ h3 {
 
 .stars {
   color: lightcoral;
+}
+
+@media (max-width: 576px){
+  .scarves {
+    width: 50%;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 2.75rem;
+  }
 }
