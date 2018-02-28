@@ -17,20 +17,18 @@
 <body>
   <div class="container-fluid">
   <header>
+        
         <div class="row justify-content-center bg-light p-2">
+          <div class="row col-lg-12 bg-light justify-content-end mt-3 mr-3">
+          <a class="cart">Cart  <i class="cart d-inline-flex fa fa-shopping-cart" aria-hidden="true"></i></a>
+        </div>
           <h1 class="title d-flex align-items-center justify-content-center col-lg-12">
             <a href="index.html"><img src="images/logo-scarfcat-160w.png" alt="dapper cartoon cat wearing a scarf"></a>
             <span class="logo-w">W</span>inter
             <span class="logo-w">W</span>ear
             <span class="logo-w">W</span>arehouse
           </h1>
-      
-<!--          <li class="cart-info ml-5">-->
-<!--            <i class="d-inline-flex fa fa-shopping-cart" aria-hidden="true"></i>-->
-<!--          </li>-->
-         
-          
-          </div>   
+        </div>   
           
        
           
@@ -42,11 +40,6 @@
               <li class="ml-5"><a href="#">Gloves</a></li>
               <li class="ml-5"><a href="#">Scarves</a></li>
               <li class="ml-5"><a href="#">Contact</a></li>
-<!--
-              <li class="cart-info ml-5">
-              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-              </li>
--->
             </ul>
           </nav>
           </div>
@@ -247,15 +240,15 @@
       </div>
       
     </section>
-    
+  <div class="row justify-content-center">
     <footer class="bg-light">
       <aside class="text-center">
-        <form class="pt-5 email-form" name="custEmail" onsubmit="capture()">
-          <label class=" col-lg-6">Sign up for our mailing list:
+        <form class="m-1 pt-3 email-form" name="custEmail" onsubmit="capture()">
+          <label class="">Sign up for our mailing list:
             <input type="email" name="email">
             <input type="submit" value="Submit">
           </label>
-          <label class=" col-lg-6">Phone Number
+          <label>Phone Number
             <input type="number" name="phone">
             <input type="submit" value="Submit">
           </label>
@@ -264,6 +257,7 @@
         </form>
       </aside>
     </footer>
+    </div>
   </main>
   <script src="js/script.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
