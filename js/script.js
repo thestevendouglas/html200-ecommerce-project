@@ -66,12 +66,12 @@ function capture(){
 
 function addToCart(name){
   cart.push(name)
-  console.log(cart.length +' ' + name)
+  console.log(cart.length)
 }
 
 function removeFromCart(name){
   cart.pop(name)
-  console.log(cart.length +' ' + name)
+  console.log(cart.length)
 }
 
 function cartContents(){
