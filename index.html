@@ -20,8 +20,9 @@
         
         <div class="row justify-content-center bg-light p-2">
           <div class="row col-lg-12 bg-light justify-content-end mt-3 mr-3">
-          <a class="cart">Cart  <i class="cart d-inline-flex fa fa-shopping-cart" aria-hidden="true"></i></a>
-        </div>
+            <button class="cart bg-light" onclick="cartContents()">Cart  <i class="cart d-inline-flex fa fa-shopping-cart" aria-hidden="true"></i></button>
+          </div>
+          
           <h1 class="title d-flex align-items-center justify-content-center col-lg-12">
             <a href="index.html"><img src="images/logo-scarfcat-160w.png" alt="dapper cartoon cat wearing a scarf"></a>
             <span class="logo-w">W</span>inter
@@ -101,8 +102,14 @@
               <i class="far fa-star"></i>
                 (25)
             </div>
-            
-        </div>
+            <div class="row justify-content-center m-2">
+              <button class="add-to-cart mr-2" onclick="addToCart('Reversible Plaid')">Add to cart
+              </button>
+              <button class="remove-from-cart" onclick="removeFromCart('Reversible Plaid')">Remove from Cart
+              </button>
+            </div>
+          </div>   
+        
         
         <div class="scarves col-xs-6 col-sm-6 col-lg-4 mb-4">
           <h3>Fringed Plaid</h3>
@@ -119,6 +126,12 @@
               <i class="fa fa-star"></i>
               <i class="far fa-star"></i>
                 (25)
+            </div>
+            <div class="row justify-content-center m-2">
+              <button class="add-to-cart mr-2" onclick="addToCart('Fringed Plaid')">Add to cart
+              </button>
+              <button class="remove-from-cart" onclick="removeFromCart('Fringed Plaid')">Remove from Cart
+              </button>
             </div>
         </div>
      
@@ -139,6 +152,12 @@
               <i class="far fa-star"></i>
                 (25)
             </div>
+          <div class="row justify-content-center m-2">
+            <button class="add-to-cart mr-2" onclick="addToCart('Multi Color')">Add to cart
+            </button>
+            <button class="remove-from-cart" onclick="removeFromCart('Multi Color')">Remove from Cart
+            </button>
+          </div>
         </div>
         
         <div class="scarves col-sm-6 col-lg-4 mb-4">
@@ -158,6 +177,12 @@
               <i class="far fa-star"></i>
                 (25)
             </div>
+            <div class="row justify-content-center m-2">
+              <button class="add-to-cart mr-2" onclick="addToCart('Northern Lights')">Add to cart
+              </button>
+              <button class="remove-from-cart" onclick="removeFromCart('Northern Lights')">Remove from Cart
+              </button>
+            </div>  
         </div>
         
         
@@ -178,6 +203,12 @@
               <i class="far fa-star"></i>
                 (25)
             </div>
+            <div class="row justify-content-center m-2">
+              <button class="add-to-cart mr-2" onclick="addToCart('Ombre Infinity')">Add to cart
+              </button>
+              <button class="remove-from-cart" onclick="removeFromCart('Ombre Infinity')">Remove from Cart
+              </button>
+            </div>
         </div>
 
         <div class="scarves col-sm-6 col-lg-4 mb-4">
@@ -195,6 +226,12 @@
               <i class="fa fa-star"></i>
               <i class="far fa-star"></i>
                 (25)
+            </div>
+            <div class="row justify-content-center m-2">
+              <button class="add-to-cart mr-2" onclick="addToCart('Ashby Twill')">Add to cart
+              </button>
+              <button class="remove-from-cart" onclick="removeFromCart('Ashby Twill')">Remove from Cart
+              </button>
             </div>
         </div>
 
@@ -214,6 +251,12 @@
               <i class="far fa-star"></i>
                 (25)
             </div>
+            <div class="row justify-content-center m-2">
+              <button class="add-to-cart mr-2" onclick="addToCart('Wool Cable Knit')">Add to cart
+              </button>
+              <button class="remove-from-cart" onclick="removeFromCart('Wool Cable Knit')">Remove from Cart
+              </button>
+          </div>
         </div>
 
         <div class="scarves col-sm-6 col-lg-4 mb-4">
@@ -231,6 +274,12 @@
               <i class="fa fa-star"></i>
               <i class="far fa-star"></i>
                 (25)
+            </div>
+            <div class="row justify-content-center m-2">
+              <button class="add-to-cart mr-2" onclick="addToCart('Paisley-Print')">Add to cart
+              </button>
+              <button class="remove-from-cart" onclick="removeFromCart('Paisley-Print')">Remove from Cart
+              </button>
             </div>
         </div>
       </div>

@@ -1,6 +1,8 @@
 // As an extra challenge, you can build the product listings
 // by looping over this array and creating HTML for each element.
 // This will be best accomplished after we do lesson 09.
+var cart = []
+
 var products = [
   {
     "name": "Reversible Plaid",
@@ -60,4 +62,23 @@ function capture(){
   var phone = document.custEmail.phone.value
   console.log(theName, phone)
   alert("Thank you for signing up! We will send you all the hottest deals of the season!")
+}
+
+function addToCart(name){
+  cart.push(name)
+  console.log(cart.length +' ' + name)
+}
+
+function removeFromCart(name){
+  cart.pop(name)
+  console.log(cart.length +' ' + name)
+}
+
+function cartContents(){
+  if(cart == 0){
+    console.log("There's nothing here")
+  }
+  else{
+  console.log(cart)
+  }
 }

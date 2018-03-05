@@ -25,18 +25,48 @@ img {
 }
 
 .cart {
-  color: royalblue;
+  color: deepskyblue;
   font-family: 'Lobster', 'cursive';
+  border-style: none;
+  text-shadow: .35px .35px black;
+}
+
+.add-to-cart {
+  color: deepskyblue;
+  font-family: 'Lobster', 'cursive';
+  border-radius: 10%;
+  
+  
+}
+
+.remove-from-cart {
+  color: deepskyblue;
+  font-family: 'Lobster', 'cursive';
+  border-radius: 10%;
+}
+
+.add-to-cart:hover {
+  border-color: black;
+}
+
+.remove-from-cart:hover {
+  border-color: black;
 }
 
 
 /***************** NAV *****************/
 
-nav {
+nav a {
   font-family: 'Lobster', cursive; 
   color: deepskyblue;
   font-size: 2rem;
   text-shadow: .5px .5px black;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: deepskyblue;
+  
 }
 
 /* smaller website title for smaller devices */
@@ -67,10 +97,7 @@ nav {
   }
 }
 
-nav a:hover {
-  text-decoration: underline;
-  
-}
+
 
 /**************** HERO *****************/
 
@@ -86,7 +113,7 @@ header img {
 
 
 
-  .logo-w {
+.logo-w {
   font-size: 4rem;
   color: deepskyblue;`
   font-family: 'Rammetto One', cursive;
