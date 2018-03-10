@@ -69,4 +69,14 @@ Lesson 09:
 Each weekly assignment will be graded independently. There will not be a final grade for the entire project.
 
 ## Testing
+
+The demographic of this user base is largely professional, urban upper working class, both men and women but leaning towards women. The primary purchasers of scarves are found to have higher than average incomes, live in larger cities and in are geographically located where the winters can be a bit more harsh. Ages of those who purchased or viewed these scarf products fell within the 25-55 age range, relied heavily upon smart phone, tablet and desktop computer devices and would browse products while on their lunch breaks or in the evenings after work. 
+
+Website tested across browsers and devices. Use tools from class.
+
+How data was compiled/discovered/testing steps
+
+
+
+
 [update this section with information about the testing steps you took to ensure site quality]
