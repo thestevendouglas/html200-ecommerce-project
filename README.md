@@ -76,7 +76,9 @@ Website tested across browsers and devices. Use tools from class.
 
 How data was compiled/discovered/testing steps
 
+Website emulator was used for Microsoft Edge using sonarwhal.com website. Initial analyzation returned 75 errors primarily in performance, security and interoperability. 
 
+Website responsiveness was analyzed using responsivedesignchecker.com
 
 
 [update this section with information about the testing steps you took to ensure site quality]
