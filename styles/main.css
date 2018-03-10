@@ -76,6 +76,12 @@ nav a:hover {
   }
 }
 
+@media (max-width: 350px){
+  .title {
+    font-size: 10px;
+  }
+}
+
 /* main navigation disappears at this pixel width */
 @media (max-width: 767px){
   .nav-1 {

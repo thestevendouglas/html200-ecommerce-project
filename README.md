@@ -70,7 +70,9 @@ Each weekly assignment will be graded independently. There will not be a final g
 
 ## Testing
 
-The demographic of this user base is largely professional, urban upper working class, both men and women but leaning towards women. The primary purchasers of scarves are found to have higher than average incomes, live in larger cities and in are geographically located where the winters can be a bit more harsh. Ages of those who purchased or viewed these scarf products fell within the 25-55 age range, relied heavily upon smart phone, tablet and desktop computer devices and would browse products while on their lunch breaks or in the evenings after work. 
+The demographic of this user base is largely professional, urban, upper working class, who are both men and women. The primary purchasers of scarves are found to have higher than average incomes, live in larger cities and in are geographically located where the winters can be a bit more harsh. Ages of those who purchased or viewed these scarf products fell within the 25-55 age range, relied heavily upon newer smart phone, tablet and desktop computer devices and would browse products while on their lunch breaks or in the evenings after work. 
+
+Our focused demographic uses the most current devices on the market, the most popular and highest selling being the latest apple iphone and ipad. Website responsiveness was tested on responsivedesignchecker.com and looked consistent and fluid on all currently top selling devices. 
 
 Website tested across browsers and devices. Use tools from class.
 
