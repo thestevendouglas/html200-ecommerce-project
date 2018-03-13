@@ -70,17 +70,13 @@ Each weekly assignment will be graded independently. There will not be a final g
 
 ## Testing
 
-The demographic of this user base is largely professional, urban, upper working class, who are both men and women. The primary purchasers of scarves are found to have higher than average incomes, live in larger cities and in are geographically located where the winters can be a bit more harsh. Ages of those who purchased or viewed these scarf products fell within the 25-55 age range, relied heavily upon newer smart phone, tablet and desktop computer devices and would browse products while on their lunch breaks or in the evenings after work. 
+The demographic of this user base is largely professional, urban, educated, relatively younger to middle-age and upper working class affluent men and women. The primary purchasers of scarves are found to have higher than average incomes, live in larger cities and are geographically located where the winters can be colder on average. Ages of those who purchased or viewed these scarf products fell within the 25-55 age range, relied heavily upon the latest smart phone, tablet and desktop computer devices and would browse products while on their lunch breaks on their work desktop computers and smart phones or in the evenings after work on their smart phone or tablet. Both men and women are purchasers of scarves with a small variance but find that women overall shop online for scarves more than men. 
 
-Our focused demographic uses the most current devices on the market, the most popular and highest selling being the latest apple iphone and ipad. Website responsiveness was tested on responsivedesignchecker.com and looked consistent and fluid on all currently top selling devices. 
+Our focused demographic uses the most current devices on the market, the most popular and highest selling being the latest apple iphone and Samsung Galaxy S8. Demographic data was pulled from a large study done by the Pew Research Center. Website responsiveness was tested on responsivedesignchecker.com and google's mobile-friendly test website and looked consistent and fluid on all currently top selling devices. 
 
-Website tested across browsers and devices. Use tools from class.
+To test performance and design of the website, many tools were utilized. A website emulator was used to test performance on Microsoft Edge using resources found on sonarwhal.com. Initial analyzation returned 75 errors primarily in performance, security and interoperability. They suggestted to require resources to be served compressed using Zopfli and Brotli over HTTPS. The website was also cross-browser tested using browserling.com and browsershots.com. Many older versions of Chrome and Firefox in Windows 7, Ubuntu and Debian led to the website not loading at all. Many of the newer versions of Chrome and Firefox loaded the website correctly into Windows 7 and Windows 2008. The website loaded fully in Chrome and Firefox v30-48 on mac os X 10.8. The website fully loaded on all current versions of browsers on Linux, Windows and Mac operating systems.This browser test was done 3 times over the three browser websites which loaded the website hundreds of times. On browserstack.com, 15 browsers' older versions of internet explorer on older versions of windows displayed horribly when loaded. Adjustments may need to be made to the website to ensure quality.
 
-How data was compiled/discovered/testing steps
-
-Website emulator was used for Microsoft Edge using sonarwhal.com website. Initial analyzation returned 75 errors primarily in performance, security and interoperability. 
-
-Website responsiveness was analyzed using responsivedesignchecker.com
+Google's Page Speed Insights showed the website to have Medium optimization for both mobile and desktop devices. Suggested changes were to minimize the overall size of the images by at least 50%, eliminate render-blocking JavaScript and CSS in above-the-fold content and leverage browser caching. A similar test on pingdom.com revealed the website had a performance grade of 91%. Images, again, were suggested to be resized to help in uploading speeds. Overall, the website performed well.
 
 
 [update this section with information about the testing steps you took to ensure site quality]
