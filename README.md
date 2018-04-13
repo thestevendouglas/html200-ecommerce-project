@@ -79,4 +79,6 @@ To test performance and design of the website, many tools were utilized. A websi
 Google's Page Speed Insights showed the website to have Medium optimization for both mobile and desktop devices. Suggested changes were to minimize the overall size of the images by at least 50%, eliminate render-blocking JavaScript and CSS in above-the-fold content and leverage browser caching. A similar test on pingdom.com revealed the website had a performance grade of 91%. Images, again, were suggested to be resized to help in uploading speeds. Overall, the website performed well.
 
 
+
+
 [update this section with information about the testing steps you took to ensure site quality]
